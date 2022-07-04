@@ -1,0 +1,30 @@
+{
+  "name": "vite-vue2-tolib-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "build:index": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaohainan/vite-vue2-toLib-demo.git"
+  },
+  "author": "liao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liaohainan/vite-vue2-toLib-demo/issues"
+  },
+  "homepage": "https://github.com/liaohainan/vite-vue2-toLib-demo#readme",
+  "devDependencies": {
+    "shelljs": "^0.8.5",
+    "vite": "^2.9.13",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue-template-compiler": "^2.7.1"
+  },
+  "dependencies": {
+    "vue": "2.7"
+  }
+}
